@@ -6,3 +6,27 @@ body{
 
   background: rgb(230, 143, 131);
 }
+
+.container-one{
+  width: auto;
+height: 50%;
+
+margin: auto;
+margin-top: 50px;
+padding: 10px;
+
+}
+#profile{
+margin: auto;
+width: 180px;
+height: 180px;
+border-radius: 150px;
+-webkit-border-radius: 150px;
+-moz-border-radius: 150px;
+background: url("profile.png") -207px -7px;
+border: 20px solid rgb(221, 115, 115);
+
+}
+#profile:hover{
+  background: url("profile.png") -19px -7px;
+}
