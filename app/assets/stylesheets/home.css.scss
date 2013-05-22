@@ -61,16 +61,16 @@ border: 1px solid rgb(206, 216, 164);
 
 #header-one:after {
 
-    content: " ";
-    display: block;
-    position: relative;
-    width: 420px;
-    bottom: -30px;
-    height: 260px;
+  content: " ";
+  display: block;
+  position: relative;
+  width: 420px;
+  bottom: -30px;
+  height: 260px;
 
-    background: linear-gradient(-45deg, transparent 75%, rgb(123, 216, 182) 75%) 0 50%, linear-gradient(45deg, transparent 75%, rgb(92, 218, 177) 75%) 0 50%;
-    background-repeat: repeat-x;
-    background-size: 30px 30px, 30px 30px;
+  background: linear-gradient(-45deg, transparent 75%, rgb(123, 216, 182) 75%) 0 50%, linear-gradient(45deg, transparent 75%, rgb(92, 218, 177) 75%) 0 50%;
+  background-repeat: repeat-x;
+  background-size: 30px 30px, 30px 30px;
 }
 .lines{
   margin-left: 20px;
