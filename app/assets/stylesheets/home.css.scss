@@ -16,7 +16,7 @@ margin-top: 50px;
 padding: 10px;
 
 }
-#profile{
+#profile-pic{
 margin: auto;
 width: 180px;
 height: 180px;
@@ -27,6 +27,54 @@ background: url("profile.png") -207px -7px;
 border: 20px solid rgb(221, 115, 115);
 
 }
-#profile:hover{
+#profile-pic:hover{
   background: url("profile.png") -19px -7px;
+
+  -webkit-transform: rotate(-2deg);
+     -moz-transform: rotate(-2deg);
+       -o-transform: rotate(-2deg);
+      -ms-transform: rotate(-2deg);
+          transform: rotate(-2deg);
 }
+
+#profile-info{
+
+  width: 40%;
+height: 40%;
+margin: auto;
+margin-top: 10px;
+border: 1px solid rgb(206, 216, 164);
+
+}
+
+#header-one {
+  margin: auto;
+  margin-top: 20px;
+  width: 400px;
+  height: 200px;
+  background: rgb(140, 211, 191);
+
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  padding: 20px 20px 20px 0px;
+}
+
+#header-one:after {
+
+    content: " ";
+    display: block;
+    position: relative;
+    width: 420px;
+    bottom: -30px;
+    height: 260px;
+
+    background: linear-gradient(-45deg, transparent 75%, rgb(123, 216, 182) 75%) 0 50%, linear-gradient(45deg, transparent 75%, rgb(92, 218, 177) 75%) 0 50%;
+    background-repeat: repeat-x;
+    background-size: 30px 30px, 30px 30px;
+}
+.lines{
+  margin-left: 20px;
+  font-family: monospace;
+  font-size: 22px;
+}
+
