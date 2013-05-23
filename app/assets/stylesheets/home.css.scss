@@ -51,7 +51,7 @@ border: 1px solid rgb(206, 216, 164);
   margin: auto;
   margin-top: 20px;
   width: 400px;
-  height: 200px;
+  height: 160px;
   background: rgb(140, 211, 191);
 
   border-top-left-radius: 10px;
@@ -65,16 +65,31 @@ border: 1px solid rgb(206, 216, 164);
   display: block;
   position: relative;
   width: 420px;
-  bottom: -30px;
+  bottom: 80px;
   height: 260px;
 
   background: linear-gradient(-45deg, transparent 75%, rgb(123, 216, 182) 75%) 0 50%, linear-gradient(45deg, transparent 75%, rgb(92, 218, 177) 75%) 0 50%;
   background-repeat: repeat-x;
   background-size: 30px 30px, 30px 30px;
-}
+  }
 .lines{
   margin-left: 20px;
   font-family: monospace;
   font-size: 22px;
+  }
+#header-name{
+  text-align: center;
+  margin-top: 10px;
+  font-family: Copperplate, "Copperplate Gothic Light", fantasy;
+  color: rgb(221, 228, 172);
+  font-size: 30px;
 }
+#footer{
+  margin: auto;
+margin-top: 50px;
 
+width: 400px;
+#items{
+  padding-right: 30px;
+}
+}
